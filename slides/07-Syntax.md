@@ -1,7 +1,9 @@
 # Syntax
 
 ```GO
-x := 0 instead of var x int = 0; or var x = 0;
+x := 0
+var x int = 0;
+var x = 0;
 ```
 ```GO
 func swap(x, y string) (string, string) {
