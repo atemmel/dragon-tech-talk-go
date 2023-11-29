@@ -1,9 +1,6 @@
-# Vad erbjuder GO
+# Vad erbjuder Go
 
-* inbyggd concurrency
-* goroutines, microservices
-* channels
-* select
+* goroutines, channels
+* microservices
 * standard library with support for HTTP servers/client/ JSON/XML parsing, SQL databaser,
-* race detector https://go.dev/doc/articles/race_detector
 * testing/benchmarking
