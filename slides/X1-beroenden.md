@@ -10,14 +10,12 @@ import (
 
 func main() {
     sdl.Init(sdl.INIT_EVERYTHING)
-    window, err := sdl.CreateWindow("Hello, World", 0, 0, 400, 300)
+    defer sdl.Quit()
+    window, _ := sdl.CreateWindow("Hello, World", 0, 0, 400, 300, 0)
     defer window.Destroy()
-
-    screenSurface = SDL_GetWindowSurface(window);
-    SDL_FillRect(screenSurface, NULL, SDL_MapRGB(screenSurface->format, 255, 255, 255));
-    SDL_UpdateWindowSurface(window);
-    SDL_Delay(2000);
-    SDL_DestroyWindow(window);
-    SDL_Quit();
+    surface, _ := window.GetSurface()
+    surface.FillRect(nil, sdl.MapRGB(surface.Format, 255, 0, 255))
+    window.UpdateSurface()
+    sdl.Delay(5000)
 }
 ```
