@@ -1,6 +1,6 @@
 # Felhantering
 
-```GO
+```go
 bytes, err := os.ReadFile("minfil.txt")
 if err != nil {
     panic(err)

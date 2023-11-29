@@ -1,6 +1,6 @@
 # Hello World
 
-```GO
+```go
 package main
 
 import "fmt"

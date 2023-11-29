@@ -1,16 +1,16 @@
 # Syntax
 
-```GO
+```go
 x := 0
 var x int = 0;
 var x = 0;
 ```
-```GO
+```go
 func swap(x, y string) (string, string) {
 	return y, x
 }
 ```
-```GO
+```go
 func main() {
 	i, j := 42, 2701
 
