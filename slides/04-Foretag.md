@@ -1,8 +1,8 @@
-# Användning av GO
+# Användning av Go
 
 * Google - web indexing
 * Apple - cloud engineering
-* Meta - ORM
+* Meta - ent (entity framework)
 * cloudflare - compression, DNS infrastructure, SSL
 * Docker, kubernetes , Dropbox
 * netflix - data caching
