@@ -11,7 +11,8 @@ var id Id = 0
 
 calc(id) // borde inte fungera
 
+calc(int(id)) //borde fungera
+
 
 
 ```
-func (i *Id) print() {}
