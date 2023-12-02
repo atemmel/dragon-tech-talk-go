@@ -1,12 +1,14 @@
 # first order functions
 
 ```go
-func caller (fn func()){
+// funktion som tar in en funktion
+func caller (fn func()) {
     fn()
 }
 
-x := func(){
-	 fmt.Println("printing x")
+// funktion som ett uttryck
+x := func() {
+    fmt.Println("Nu körs x")
 }
 
 caller(x)

@@ -1,6 +1,17 @@
 # Loopar
 
 ```go
-for i := range x {} 
+for index := range array {
+    // gör något med index
+} 
+
+for index, element := range array {
+    // gör något med index och element
+} 
+
+for _, element := range array {
+   // gör något med element
+}
 ```
-* (arrays, string, maps)
+
+* funkar på arrays, strings och maps

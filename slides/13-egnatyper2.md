@@ -3,16 +3,14 @@
 ```go
 type Id int
 
-func calc(siffra int){
-//gör någonting med siffran
+func calc(i int) {
+    //gör någonting med i
 }
 
 var id Id = 0
 
-calc(id) // borde inte fungera
+calc(id) // fungerar inte
 
-calc(int(id)) //borde fungera
-
-
-
+// explicit typomvandling
+calc(int(id)) // fungerar
 ```

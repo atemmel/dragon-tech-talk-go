@@ -4,5 +4,5 @@
 * Apple - cloud engineering
 * Meta - ent (entity framework)
 * cloudflare - compression, DNS infrastructure, SSL
-* Docker, kubernetes , Dropbox
+* Docker, kubernetes, Dropbox
 * netflix - data caching

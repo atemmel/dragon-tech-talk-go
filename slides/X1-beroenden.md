@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+    // Öppnar ett lila fönster i 5 sekunder
     sdl.Init(sdl.INIT_EVERYTHING)
     defer sdl.Quit()
     window, _ := sdl.CreateWindow("Hello, World", 0, 0, 400, 300, 0)

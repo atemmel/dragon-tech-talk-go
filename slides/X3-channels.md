@@ -6,14 +6,17 @@ package main
 import "fmt"
 
 func send(c chan string) {
-    c <- "Järnjätten"
+    // skicka meddelande till kanal
+    c <- "Järnjätten"  
 }
 
 func main() {
+    // skapa en ny kanal
     c := make(chan string)
 
-    send(c)
+    go send(c)
 
+    // läs ut meddelande ur kanalen
     msg := <- c
 
     fmt.Println(msg)

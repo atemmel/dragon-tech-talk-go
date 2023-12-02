@@ -3,9 +3,11 @@
 ```go
 type Id int
 
-func (i *Id) print() {}
+func (i *Id) Print() {
+    fmt.Println("Id är", i)
+}
 
 var id Id = 0
 
-id.print()
+id.Print()
 ```

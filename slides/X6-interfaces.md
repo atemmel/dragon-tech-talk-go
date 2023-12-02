@@ -5,6 +5,7 @@ package main
 
 import "fmt"
 
+// skapa ett interface
 type Animal interface {
     Noise() string
 }
@@ -21,6 +22,8 @@ func print(animal Animal) {
 
 func main() {
     duck := &Duck{}
+    // Duck blir implicit ett Animal, eftersom den
+    // tillfredsställer alla metoder Animal begär
     print(duck)
 }
 ```

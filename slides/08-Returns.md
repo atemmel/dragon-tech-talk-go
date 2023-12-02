@@ -1,7 +1,9 @@
 # Returns
 
 ```go
-func swap(x, y string) (string, string) {  //returns till höger
-    return y, x     //returnerar 2 värden
+//      argument        returtyper
+//         v               v
+func swap(x, y string) (string, string) {
+    return y, x  //returnerar 2 värden
 }
 ```
