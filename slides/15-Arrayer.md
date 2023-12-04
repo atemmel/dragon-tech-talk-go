@@ -1,13 +1,13 @@
 # Arrayer
 
 ```go
-list := make([]int)       // skapar array med ints
+list := []int{}           // skapar array med ints
 list := make([]int, 5)    // skapar array med 5 tomma platser för ints
 list := make([]int, 0, 5) // skapar array med 5 förallokerade platser
 
 length := len(list)   // längd av arrayen
 
-element := list[0]    //ta ut värden ur arrayen
+element := list[0]    // ta ut värden ur arrayen
 
 sublist := list[2:5]  // tar en slice av arrayen 
 

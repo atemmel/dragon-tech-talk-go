@@ -1,7 +1,8 @@
 # map
 
 ```go
-table := make(map[string]int) // skapa en string -> int mappning
+table := map[string]int{}     // skapa en string -> int mappning
+table := make(map[string]int) // -"-
 
 table["hej"] = 5 // sätt in värden i map
 
