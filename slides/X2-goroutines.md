@@ -20,6 +20,7 @@ func main() {
     go task(1, "World")
 
     // invänta
+    fmt.Println("Inväntar...")
     time.Sleep(2 * time.Second)
 }
 ```

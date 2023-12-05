@@ -10,8 +10,11 @@ for index, element := range array {
 } 
 
 for _, element := range array {
-   // gör något med element
+    // gör något med element
 }
 ```
 
-* funkar på arrays, strings och maps
+funkar på 
+* arrays
+* strings
+* maps
